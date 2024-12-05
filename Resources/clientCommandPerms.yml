@@ -1,5 +1,6 @@
 # Available to everybody
 - Commands:
+    - adminwho # DW
     - echo
     - disconnect
     - help
@@ -8,7 +9,6 @@
     - hardquit
     - svbind
     - bind
-    - exec # macro moment
     - cls
     - vram
     - monitor
@@ -48,6 +48,7 @@
     - notify
     - pathfinder
     - entitymenug
+    - exec # DW
     - hidemechanisms
     - showmechanisms
     - menuvis
