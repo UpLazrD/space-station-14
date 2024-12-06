@@ -1,0 +1,8 @@
+- type: guideEntry
+  id: DWRuleset
+  name: Правила сервера Мечта Воителя
+  priority: 0
+  ruleEntry: true
+  text: "/ServerInfo/_DW/Guidebook/ServerRules/Rules.xml"
+#  children:
+#  -

@@ -1,0 +1,52 @@
+[game]
+hostname = "[URP] Мечта Воителя ☢"
+desc = "⚔ Долгожданное возвращение Мечты Воителя"
+maxplayers = 60
+soft_max_players = 60
+lobbyenabled = true
+lobbyduration = 360
+map_pool = "CorvaxDefaultMapPool"
+secret_weight_prototype = "CorvaxSecretDefault"
+map_rotation = true
+role_timers = false
+peaceful_end = false
+maxcharacterslots = 5
+
+[server]
+rules_file = "DWRuleset"
+
+[rules]
+time = 30.0
+
+[infolinks]
+discord = "https://discord.gg/b2GNEpK8pE"
+appeal = "https://discord.gg/b2GNEpK8pE"
+website = "https://boosty.to/nuclear-wastelands.ss14"
+patreon = "https://boosty.to/nuclear-wastelands.ss14"
+wiki = "https://station14.ru/wiki"
+github = "https://github.com/uplazrd/space-station-14"
+
+[chat]
+max_message_length = 500
+
+[ic]
+flavor_text = true
+
+[looc]
+enabled_crit = true
+
+[shuttle]
+emergency_early_launch_allowed = true
+auto_call_time = 60
+
+[viewport]
+maximum_width = 31
+width = 31
+
+[admin]
+see_own_notes = true
+
+[hub]
+advertise = true
+tags = "lang:ru,rp:low,region:eu_e"
+hub_urls = "https://cdn.spacestationmultiverse.com/hub/,https://central.spacestation14.io/hub/"
