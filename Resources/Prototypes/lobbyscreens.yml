@@ -6,9 +6,10 @@
   id: Pharmacy
   background: /Textures/LobbyScreens/pharmacy.webp
 
-- type: lobbyBackground
-  id: SSXIV
-  background: /Textures/LobbyScreens/ssxiv.webp
+# Hidden by Warrior's Dream
+# - type: lobbyBackground
+#   id: SSXIV
+#   background: /Textures/LobbyScreens/ssxiv.webp
 
 - type: lobbyBackground
   id: Susstation
@@ -22,9 +23,10 @@
   id: Doomed
   background: /Textures/LobbyScreens/doomed.webp
 
-- type: lobbyBackground
-  id: Blueprint
-  background: /Textures/LobbyScreens/blueprint.webp
+# Hidden by Warrior's Dream
+# - type: lobbyBackground
+#   id: Blueprint
+#   background: /Textures/LobbyScreens/blueprint.webp
 
 - type: lobbyBackground
   id: Behonker
@@ -45,4 +47,3 @@
 - type: lobbyBackground
   id: ReclaimerNuke
   background: /Textures/LobbyScreens/reclaimer-nuke.webp
-  

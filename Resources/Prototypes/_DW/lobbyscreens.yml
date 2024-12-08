@@ -1,0 +1,21 @@
+### Warrior's Dream lobbyscreens
+
+- type: lobbyBackground
+  id: AntiFurryDW
+  background: /Textures/_DW/LobbyScreens/antifurry.png
+
+- type: lobbyBackground
+  id: NukerTimeDW
+  background: /Textures/_DW/LobbyScreens/nukertime.png
+
+- type: lobbyBackground
+  id: HeavyMgeDW
+  background: /Textures/_DW/LobbyScreens/heavy.png
+
+- type: lobbyBackground
+  id: HeadSecDW
+  background: /Textures/_DW/LobbyScreens/headsec.png
+
+- type: lobbyBackground
+  id: ClownMgeDW
+  background: /Textures/_DW/LobbyScreens/clownmge.png

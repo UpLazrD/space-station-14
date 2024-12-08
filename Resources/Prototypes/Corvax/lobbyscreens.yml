@@ -1,6 +1,7 @@
-- type: lobbyBackground
-  id: BarLife
-  background: /Textures/Corvax/LobbyScreens/bar-life.png
+# Hidden by Warrior's Dream
+# - type: lobbyBackground
+#   id: BarLife
+#   background: /Textures/Corvax/LobbyScreens/bar-life.png
 
 - type: lobbyBackground
   id: DeadInSpace
@@ -50,9 +51,10 @@
   id: MaintenanceClown
   background: /Textures/Corvax/LobbyScreens/maintenance-clown.png
 
-- type: lobbyBackground
-  id: MedDepart
-  background: /Textures/Corvax/LobbyScreens/med-depart.png
+# Hidden by Warrior's Dream
+# - type: lobbyBackground
+#   id: MedDepart
+#   background: /Textures/Corvax/LobbyScreens/med-depart.png
 
 - type: lobbyBackground
   id: NukiesHere
@@ -70,9 +72,10 @@
   id: Sidor
   background: /Textures/Corvax/LobbyScreens/sidor.png
 
-- type: lobbyBackground
-  id: Singulord
-  background: /Textures/Corvax/LobbyScreens/singulord.png
+# Hidden by Warrior's Dream
+# - type: lobbyBackground
+#   id: Singulord
+#   background: /Textures/Corvax/LobbyScreens/singulord.png
 
 - type: lobbyBackground
   id: SpaceMudaki
@@ -94,29 +97,33 @@
   id: MenAtWork
   background: /Textures/Corvax/LobbyScreens/men-at-work.png
 
-- type: lobbyBackground
-  id: FleshAnom
-  background: /Textures/Corvax/LobbyScreens/fleshanom.png
+# Hidden by Warrior's Dream
+# - type: lobbyBackground
+#   id: FleshAnom
+#   background: /Textures/Corvax/LobbyScreens/fleshanom.png
 
 - type: lobbyBackground
   id: Revenant
   background: /Textures/Corvax/LobbyScreens/revenant.png
 
-- type: lobbyBackground
-  id: DeathNettle
-  background: /Textures/Corvax/LobbyScreens/deathnettle.png
+# Hidden by Warrior's Dream
+# - type: lobbyBackground
+#   id: DeathNettle
+#   background: /Textures/Corvax/LobbyScreens/deathnettle.png
 
-- type: lobbyBackground
-  id: Xeno
-  background: /Textures/Corvax/LobbyScreens/xeno.png
+# Hidden by Warrior's Dream
+# - type: lobbyBackground
+#   id: Xeno
+#   background: /Textures/Corvax/LobbyScreens/xeno.png
 
 - type: lobbyBackground
   id: ClownSpider
   background: /Textures/Corvax/LobbyScreens/clownspider.png
 
-- type: lobbyBackground
-  id: AIMia
-  background: /Textures/Corvax/LobbyScreens/ai-mia.png
+# Hidden by Warrior's Dream
+# - type: lobbyBackground
+#   id: AIMia
+#   background: /Textures/Corvax/LobbyScreens/ai-mia.png
 
 - type: lobbyBackground
   id: XenoAttack
@@ -126,51 +133,62 @@
   id: SingulordCage
   background: /Textures/Corvax/LobbyScreens/singulord-cage.png
 
-- type: lobbyBackground
-  id: YouLookLonely
-  background: /Textures/Corvax/LobbyScreens/you-look-lonely.png
+# Hidden by Warrior's Dream
+# - type: lobbyBackground
+#   id: YouLookLonely
+#   background: /Textures/Corvax/LobbyScreens/you-look-lonely.png
 
 - type: lobbyBackground
   id: GrayTide
   background: /Textures/Corvax/LobbyScreens/gray-tide.png
 
-#- type: lobbyBackground
+# # Shown by Warrior's Dream
+# - type: lobbyBackground
 #  id: NewYearBar
 #  background: /Textures/Corvax/LobbyScreens/new-year-bar.png
 
-#- type: lobbyBackground
+# # Shown by Warrior's Dream
+# - type: lobbyBackground
 #  id: NewYearSec
 #  background: /Textures/Corvax/LobbyScreens/new-year-sec.png
 
-#- type: lobbyBackground
+# # Shown by Warrior's Dream
+# - type: lobbyBackground
 #  id: NewYearSave
 #  background: /Textures/Corvax/LobbyScreens/new-year-save.png
 
-#- type: lobbyBackground
+# # Shown by Warrior's Dream
+# - type: lobbyBackground
 #  id: NewYearComfort
 #  background: /Textures/Corvax/LobbyScreens/new-year-comfort.png
 
-#- type: lobbyBackground
+# # Shown by Warrior's Dream
+# - type: lobbyBackground
 #  id: NewYearParty
 #  background: /Textures/Corvax/LobbyScreens/new-year-party.png
 
-#- type: lobbyBackground
+# # Shown by Warrior's Dream
+# - type: lobbyBackground
 #  id: NewYearPine
 #  background: /Textures/Corvax/LobbyScreens/new-year-pine.png
 
-#- type: lobbyBackground
+# # Shown by Warrior's Dream
+# - type: lobbyBackground
 #  id: NewYearExplosion
 #  background: /Textures/Corvax/LobbyScreens/new-year-explosion.png
 
-- type: lobbyBackground
-  id: SpaceNuke
-  background: /Textures/Corvax/LobbyScreens/space-nuke.png
+# # Shown by Warrior's Dream
+# - type: lobbyBackground
+#   id: SpaceNuke
+#   background: /Textures/Corvax/LobbyScreens/space-nuke.png
 
-#- type: lobbyBackground
+# # Shown by Warrior's Dream
+# - type: lobbyBackground
 #  id: NewYearPenguins
 #  background: /Textures/Corvax/LobbyScreens/new-year-penguins.png
 
-#- type: lobbyBackground
+# # Shown by Warrior's Dream
+# - type: lobbyBackground
 #  id: NewYearNuke
 #  background: /Textures/Corvax/LobbyScreens/new-year-nuke.png
 
@@ -189,14 +207,16 @@
 - type: lobbyBackground
   id: EngineersVsZombies
   background: /Textures/Corvax/LobbyScreens/engineers-vs-zombies.png
-  
-- type: lobbyBackground
-  id: SillyIsland
-  background: /Textures/Corvax/LobbyScreens/silly-island.png
 
-- type: lobbyBackground
-  id: EchoTeam
-  background: /Textures/Corvax/LobbyScreens/echo-team.png
+# Hidden by Warrior's Dream
+# - type: lobbyBackground
+#   id: SillyIsland
+#   background: /Textures/Corvax/LobbyScreens/silly-island.png
+
+# Hidden by Warrior's Dream
+# - type: lobbyBackground
+#   id: EchoTeam
+#   background: /Textures/Corvax/LobbyScreens/echo-team.png
 
 - type: lobbyBackground
   id: YouAreNotFunny
