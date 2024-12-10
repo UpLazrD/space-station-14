@@ -4,5 +4,60 @@
   priority: 0
   ruleEntry: true
   text: "/ServerInfo/_DW/Guidebook/ServerRules/Rules.xml"
-#  children:
-#  -
+  children:
+  - DWRule1
+  - DWRule2
+  - DWRule3
+  - DWRule4
+  - DWRule5
+  - DwRule6
+  - DWRule7
+
+- type: guideEntry
+  id: DWRule1
+  name: Правило 1
+  priority: 1
+  ruleEntry: true
+  text: "/ServerInfo/_DW/Guidebook/ServerRules/Rule1.xml"
+
+- type: guideEntry
+  id: DWRule2
+  name: Правило 2
+  priority: 2
+  ruleEntry: true
+  text: "/ServerInfo/_DW/Guidebook/ServerRules/Rule2.xml"
+
+- type: guideEntry
+  id: DWRule3
+  name: Правило 3
+  priority: 3
+  ruleEntry: true
+  text: "/ServerInfo/_DW/Guidebook/ServerRules/Rule3.xml"
+
+- type: guideEntry
+  id: DWRule4
+  name: Правило 4
+  priority: 4
+  ruleEntry: true
+  text: "/ServerInfo/_DW/Guidebook/ServerRules/Rule4.xml"
+
+- type: guideEntry
+  id: DWRule5
+  name: Правило 5
+  priority: 5
+  ruleEntry: true
+  text: "/ServerInfo/_DW/Guidebook/ServerRules/Rule5.xml"
+
+- type: guideEntry
+  id: DWRule6
+  name: Правило 6
+  priority: 6
+  ruleEntry: true
+  text: "/ServerInfo/_DW/Guidebook/ServerRules/Rule6.xml"
+
+- type: guideEntry
+  id: DWRule7
+  name: Правило 7
+  priority: 7
+  ruleEntry: true
+  text: "/ServerInfo/_DW/Guidebook/ServerRules/Rule7.xml"
