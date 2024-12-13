@@ -49,7 +49,7 @@ namespace Content.Client.Lobby
 
             _voteManager.SetPopupContainer(Lobby.VoteContainer);
             LayoutContainer.SetAnchorPreset(Lobby, LayoutContainer.LayoutPreset.Wide);
-            Lobby.ServerName.Text = _baseClient.GameInfo?.ServerName; //The eye of refactor gazes upon you...
+            Lobby.ServerName.Text = Loc.GetString("Мечта Воителя"); //ТУТ НАЗВАНИЕ В ЛОББИ МЕНЯТЬ НЕЛЬЗЯ ТУТ ОДНА ТЫСЯЧА ДЕВЯТЬСОТ ВОСЕМЬДЕСЯТ ЧЕТЫРЕ
             UpdateLobbyUi();
 
             Lobby.CharacterPreview.CharacterSetupButton.OnPressed += OnSetupPressed;
