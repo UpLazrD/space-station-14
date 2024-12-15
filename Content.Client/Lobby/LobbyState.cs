@@ -11,7 +11,12 @@ using Robust.Client.ResourceManagement;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using Robust.Shared.Timing;
-
+using Content.Client.Parallax.Managers;
+using Robust.Shared.Utility;
+using Robust.Shared.Serialization.Manager;
+using Robust.Shared.ContentPack;
+using Robust.Shared.Serialization.Markdown;
+using Robust.Shared.Serialization.Markdown.Mapping;
 
 namespace Content.Client.Lobby
 {
@@ -24,6 +29,8 @@ namespace Content.Client.Lobby
         [Dependency] private readonly IUserInterfaceManager _userInterfaceManager = default!;
         [Dependency] private readonly IGameTiming _gameTiming = default!;
         [Dependency] private readonly IVoteManager _voteManager = default!;
+        [Dependency] private readonly IParallaxManager _parallaxManager = default!;
+        [Dependency] private readonly ISerializationManager _serialization = default!;
 
         private ClientGameTicker _gameTicker = default!;
         private ContentAudioSystem _contentAudioSystem = default!;
@@ -49,7 +56,7 @@ namespace Content.Client.Lobby
 
             _voteManager.SetPopupContainer(Lobby.VoteContainer);
             LayoutContainer.SetAnchorPreset(Lobby, LayoutContainer.LayoutPreset.Wide);
-            Lobby.ServerName.Text = _baseClient.GameInfo?.ServerName; //The eye of refactor gazes upon you...
+            Lobby.ServerName.Text = Loc.GetString("Мечта Воителя"); //ТУТ НАЗВАНИЕ В ЛОББИ МЕНЯТЬ НЕЛЬЗЯ ТУТ ОДНА ТЫСЯЧА ДЕВЯТЬСОТ ВОСЕМЬДЕСЯТ ЧЕТЫРЕ
             UpdateLobbyUi();
 
             Lobby.CharacterPreview.CharacterSetupButton.OnPressed += OnSetupPressed;
@@ -152,6 +159,9 @@ namespace Content.Client.Lobby
         private void LobbyStatusUpdated()
         {
             UpdateLobbyBackground();
+            // Sunrise-Start
+            UpdateLobbyaralax();
+            // Sunrise-End
             UpdateLobbyUi();
         }
 
@@ -214,6 +224,21 @@ namespace Content.Client.Lobby
             }
         }
 
+        // Sunrise-start
+        private void UpdateLobbyaralax()
+        {
+            if (_gameTicker.LobbyParalax != null)
+            {
+                _parallaxManager.LoadParallaxByName(_gameTicker.LobbyParalax);
+                Lobby!.LobbyParalax = _gameTicker.LobbyParalax;
+            }
+            else
+            {
+                Lobby!.LobbyParalax = "FastSpace";
+            }
+        }
+        // Sunrise-end
+
         private void UpdateLobbyBackground()
         {
             if (_gameTicker.LobbyBackground != null)
@@ -237,4 +262,10 @@ namespace Content.Client.Lobby
             _consoleHost.ExecuteCommand($"toggleready {newReady}");
         }
     }
+}
+
+public enum LobbyBackgroundType
+{
+    Paralax,
+    Art
 }

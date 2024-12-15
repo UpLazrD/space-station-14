@@ -43,6 +43,7 @@ ui-options-interface-label = Интерфейс
 
 ## Graphics menu
 
+ui-options-lobby-background = Фон лобби
 ui-options-auto-fill-highlights = Автоматически заполнять подсветкой информацию о персонаже
 ui-options-highlights-color = Цвет подсветки:
 ui-options-highlights-color-example = Это подсвеченный текст
