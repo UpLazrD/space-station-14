@@ -1,3 +1,4 @@
+using System.Numerics;
 using Content.Shared.Roles;
 using Robust.Shared.Network;
 using Robust.Shared.Prototypes;
@@ -86,6 +87,9 @@ namespace Content.Shared.GameTicking
     public sealed class TickerLobbyStatusEvent : EntityEventArgs
     {
         public bool IsRoundStarted { get; }
+        // Sunrise-Start
+        public string? LobbyParalax { get; }
+        // Sunrise-End
         public string? LobbyBackground { get; }
         public bool YouAreReady { get; }
         // UTC.
@@ -93,9 +97,12 @@ namespace Content.Shared.GameTicking
         public TimeSpan RoundStartTimeSpan { get; }
         public bool Paused { get; }
 
-        public TickerLobbyStatusEvent(bool isRoundStarted, string? lobbyBackground, bool youAreReady, TimeSpan startTime, TimeSpan preloadTime, TimeSpan roundStartTimeSpan, bool paused)
+        public TickerLobbyStatusEvent(bool isRoundStarted, string? lobbyBackground, string? lobbyParalax, bool youAreReady, TimeSpan startTime, TimeSpan preloadTime, TimeSpan roundStartTimeSpan, bool paused)
         {
             IsRoundStarted = isRoundStarted;
+            // Sunrise-Start
+            LobbyParalax = lobbyParalax;
+            // Sunrise-End
             LobbyBackground = lobbyBackground;
             YouAreReady = youAreReady;
             StartTime = startTime;
