@@ -3,7 +3,7 @@
   mapName: 'Marathon Station'
   mapPath: /Maps/marathon.yml
   # Corvax-start
-  minPlayers: 20
+  minPlayers: 0 # MB. was 20
   maxPlayers: 50
   # Corvax-end
   stations:

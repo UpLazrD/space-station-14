@@ -4,7 +4,7 @@
   mapPath: /Maps/corvax_avrite.yml
   maxRandomOffset: 0
   randomRotation: false
-  minPlayers: 55
+  minPlayers: 0 # MB. Was 55
   stations:
     Avrite:
       stationProto: StandardNanotrasenStation

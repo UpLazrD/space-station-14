@@ -1,16 +1,27 @@
 - type: gameMapPool
   id: DefaultMapPool
   maps:
-  - Amber
-  - Bagel
-  - Box
-  - Cog
-  - Core
-  - Fland
-  - Marathon
-  - Meta
-  - Oasis
-  - Omega
-  - Packed
-  - Reach
+    - CorvaxGelta # MB
+    - CorvaxDelta
+    - CorvaxAvrite
+    - CorvaxSilly
+    - CorvaxAstra
+    - CorvaxMaus
+    - CorvaxPaper
+    - CorvaxPilgrim
+    - CorvaxTerra
+    - CorvaxPearl
+    - CorvaxTushkan
+    - Amber
+    - Bagel
+    - Box
+    - Cog
+    - Core
+    - Fland
+    - Marathon
+    - Meta
+    - Oasis
+    - Omega
+    - Packed
+    - Reach
   #- Train
