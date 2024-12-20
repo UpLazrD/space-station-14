@@ -3,7 +3,7 @@
   mapName: 'Bagel Station'
   mapPath: /Maps/bagel.yml
   # Corvax-start
-  minPlayers: 20
+  minPlayers: 0 # MB. Was 20
   maxPlayers: 50
   # Corvax-end
   stations:
