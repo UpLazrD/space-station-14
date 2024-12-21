@@ -1,6 +1,5 @@
 - type: entity
   id: WeaponProtoKineticAcceleratorSniping
-  parent: WeaponProtoKineticAcceleratorMining
   name: Sniping ProtoKinetic Accelerator
   description: 360, noscope.
   components:
@@ -18,7 +17,6 @@
     selectedMode: SemiAuto
     availableModes:
       - SemiAuto
-      - FullAuto
   - type: AmmoCounter
     capacity: 1
   - type: RechargeBasicEntityAmmo
