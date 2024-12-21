@@ -10,8 +10,6 @@
     - state: animation-icon
   - type: Item
     sprite: _DW/Objects/Weapons/Snipingacelerator.rsi
-  - type: Clothing
-    sprite: _DW/Objects/Weapons/Snipingacelerator.rsi
   - type: Gun
     fireRate: 1
     selectedMode: SemiAuto
