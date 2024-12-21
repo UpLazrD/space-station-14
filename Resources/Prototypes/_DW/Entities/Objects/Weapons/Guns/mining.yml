@@ -1,0 +1,24 @@
+- type: entity
+  id: WeaponProtoKineticAcceleratorSniping
+  name: Снайперская протокинетическая Винтовка
+  description: 360, НоуСкоуп!
+  components:
+  - type: Sprite
+    sprite: _DW/Objects/Weapons/Snipingacelerator.rsi
+    layers:
+    - state: icon
+  - type: Item
+    sprite: _DW/Objects/Weapons/Snipingacelerator.rsi
+  - type: Gun
+    fireRate: 1
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+  - type: AmmoCounter
+    capacity: 1
+  - type: RechargeBasicEntityAmmo
+    rechargeCooldown: 5
+  - type: BasicEntityAmmoProvider
+    proto: SniperBulletKinetic
+    capacity: 1
+    count: 1
