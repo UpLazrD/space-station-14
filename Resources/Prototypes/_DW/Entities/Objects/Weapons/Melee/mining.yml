@@ -1,6 +1,7 @@
 - type: entity
   parent: [BaseWeaponCrusher, BaseSecurityCargoContraband]
   id: guusWeaponCrusherV2
+  name: Крушитель версия 2
   components:
   - type: Tag
     tags:
@@ -54,6 +55,7 @@
 - type: entity
   parent: [BaseWeaponCrusher, BaseSecurityCargoContraband]
   id: guusWeaponCrusherV3
+  name: Крушитель версия 3
   components:
   - type: Tag
     tags:

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: GuusWeaponMeleeToolboxOnAStick
-  name: toolbox on a stick
-  description: dont ask how, dont ask why.
+  name: Ящик на палочке
+  description: Ящик... Но на палочке!
   components:
   - type: Sprite
     sprite: _DW/Objects/Weapons/Toolboxonastick.rsi

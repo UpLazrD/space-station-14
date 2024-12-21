@@ -1,7 +1,7 @@
 - type: entity
   id: WeaponProtoKineticAcceleratorSniping
-  name: Sniping ProtoKinetic Accelerator
-  description: 360, noscope.
+  name: Снайперская протокинетическая Винтовка
+  description: 360, НоуСкоуп!
   components:
   - type: Sprite
     sprite: _DW/Objects/Weapons/Snipingacelerator.rsi
