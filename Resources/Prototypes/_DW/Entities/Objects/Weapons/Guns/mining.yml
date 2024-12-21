@@ -7,7 +7,6 @@
     sprite: _DW/Objects/Weapons/Snipingacelerator.rsi
     layers:
     - state: icon
-    - state: animation-icon
   - type: Item
     sprite: _DW/Objects/Weapons/Snipingacelerator.rsi
   - type: Gun
