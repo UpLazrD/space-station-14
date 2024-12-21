@@ -5,11 +5,11 @@
   description: dont ask how, dont ask why.
   components:
   - type: Sprite
-    sprite: _DW/Objects/Weapons/toolbox_on_a_stick.rsi
+    sprite: _DW/Objects/Weapons/Toolboxonastick.rsi
     state: icon
   - type: Item
     size: Ginormous
-    sprite: _DW/Objects/Weapons/toolbox_on_a_stick.rsi
+    sprite: _DW/Objects/Weapons/Toolboxonastick.rsi
   - type: MeleeWeapon
     wideAnimationRotation: 90
     attackRate: 1
