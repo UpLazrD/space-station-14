@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseItem
   id: GuusWeaponMeleeToolboxOnAStick
-    name: "toolbox on a stick"
+  name: toolbox on a stick
   description: dont ask how, dont ask why.
   components:
   - type: Sprite
