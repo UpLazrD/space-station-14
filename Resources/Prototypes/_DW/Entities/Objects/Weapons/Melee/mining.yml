@@ -1,0 +1,105 @@
+- type: entity
+  parent: [BaseWeaponCrusher, BaseSecurityCargoContraband]
+  id: guusWeaponCrusherV2
+  components:
+  - type: Tag
+    tags:
+      - Pickaxe
+  - type: Sprite
+    sprite: _DW/Objects/Weapons/Crusher.rsi
+    state: v2
+  - type: AmmoCounter
+  - type: UseDelayOnShoot
+  - type: UseDelay
+    delay: 0.8
+  - type: LeechOnMarker
+    leech:
+      groups:
+        Brute: -10
+  - type: Gun
+    soundGunshot: /Audio/Weapons/plasma_cutter.ogg
+    fireRate: 2
+    useKey: false
+  - type: RechargeBasicEntityAmmo
+    rechargeCooldown: 0.25
+    rechargeSound:
+      path: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
+  - type: BasicEntityAmmoProvider
+    proto: BulletCharge
+    capacity: 2
+    count: 2
+  - type: MeleeWeapon
+    attackRate: 1.5
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Blunt: 12
+        Slash: 10
+    soundHit:
+      collection: MetalThud
+  - type: Wieldable
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 8
+        Slash: 8
+        Structural: 50
+  - type: GunRequiresWield
+  - type: Item
+    size: Ginormous
+    sprite: Objects/Weapons/Melee/crusher-inhands.rsi
+  - type: DisarmMalus
+  - type: Prying
+
+- type: entity
+  parent: [BaseWeaponCrusher, BaseSecurityCargoContraband]
+  id: guusWeaponCrusherV3
+  components:
+  - type: Tag
+    tags:
+      - Pickaxe
+  - type: Sprite
+    sprite: _DW/Objects/Weapons/Crusher.rsi
+    state: v3
+  - type: AmmoCounter
+  - type: UseDelayOnShoot
+  - type: UseDelay
+    delay: 0.5
+  - type: LeechOnMarker
+    leech:
+      groups:
+        Brute: -10
+  - type: Gun
+    soundGunshot: /Audio/Weapons/plasma_cutter.ogg
+    fireRate: 2
+    useKey: false
+  - type: RechargeBasicEntityAmmo
+    rechargeCooldown: 0.2
+    rechargeSound:
+      path: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
+  - type: BasicEntityAmmoProvider
+    proto: BulletCharge
+    capacity: 3
+    count: 3
+  - type: MeleeWeapon
+    attackRate: 1.8
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Blunt: 15
+        Slash: 15
+    soundHit:
+      collection: MetalThud
+  - type: Wieldable
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 10
+        Slash: 10
+        Structural: 50
+  - type: GunRequiresWield
+  - type: Item
+    size: Ginormous
+    sprite: Objects/Weapons/Melee/crusher-inhands.rsi
+  - type: DisarmMalus
+  - type: Prying

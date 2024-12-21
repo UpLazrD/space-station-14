@@ -1,0 +1,29 @@
+- type: entity
+  id: WeaponProtoKineticAcceleratorSniping
+  parent: WeaponProtoKineticAcceleratorMining
+  name: Sniping ProtoKinetic Accelerator
+  description: 360, noscope.
+  components:
+  - type: Sprite
+    sprite: _DW/Objects/Weapons/Snipingacelerator.rsi
+    layers:
+    - state: icon
+    - state: animation-icon
+  - type: Item
+    sprite: _DW/Objects/Weapons/Snipingacelerator.rsi
+  - type: Clothing
+    sprite: _DW/Objects/Weapons/Snipingacelerator.rsi
+  - type: Gun
+    fireRate: 1
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+      - FullAuto
+  - type: AmmoCounter
+    capacity: 1
+  - type: RechargeBasicEntityAmmo
+    rechargeCooldown: 5
+  - type: BasicEntityAmmoProvider
+    proto: SniperBulletKinetic
+    capacity: 1
+    count: 1

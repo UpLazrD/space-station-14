@@ -1,0 +1,26 @@
+- type: entity
+  parent: BaseItem
+  id: GuusWeaponMeleeToolboxOnAStick
+    name: toolbox on a stick
+  description: dont ask how, dont ask why.
+  components:
+  - type: Sprite
+    sprite: _DW/Objects/Weapons/toolbox_on_a_stick.rsi
+    state: icon
+  - type: Item
+    size: Ginormous
+    sprite: _DW/Objects/Weapons/toolbox_on_a_stick.rsi
+  - type: MeleeWeapon
+    wideAnimationRotation: 90
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 12
+    soundHit:
+      path: "/Audio/Weapons/smash.ogg"
+  - type: Wieldable
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 3
+        Structural: 10
