@@ -9,6 +9,18 @@
   "states": [
     {
       "name": "icon"
+    },
+    {
+      "name": "wielded-inhand-right"
+    },
+    {
+      "name": "wielded-inhand-left"
+    },
+    {
+      "name": "off-inhand-right"
+    },
+    {
+      "name": "off-inhand-left"
     }
   ]
 }
